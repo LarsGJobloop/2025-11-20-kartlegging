@@ -1,3 +1,7 @@
+## Sketches
+
+![Web Backend 101](/docs/web-backend-101.excalidraw.png)
+
 ## Command Reference
 
 - Generate a Web API project
