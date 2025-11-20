@@ -7,7 +7,9 @@
 - Generate a Web API project
 
   ```sh
+  dotnet new sln
   dotnet new web
+  dotnet sln add <name-of-the-csproj-file>
   ```
 
 - Startup Web Server / Web API
