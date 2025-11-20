@@ -2,6 +2,9 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 var messages = new List<Message>();
 
 // Accept new create message requests and figures

@@ -1,0 +1,42 @@
+/* 
+=================
+= Normalize CSS =
+=================
+*/
+/*
+Normalize here means discard the rules that
+where for 1990's sharable text documents.
+
+We are developing applications, not rapports.
+
+The internet can't stop supporting them, so
+these will hang around until we replace the internet.
+
+This should be the very first CSS, either at the top
+of the file or linked in as the first CSS file.
+This is due to how CSS rules is layered on top of
+each other. Meaning the last rule wins, first loses.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  box-sizing: border-box;
+  color: inherit;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: unset;
+}
+
+a {
+  text-decoration: inherit;
+}

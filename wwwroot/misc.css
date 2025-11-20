@@ -1,0 +1,150 @@
+/*
+========
+= Misc =
+========
+*/
+/* 
+Full design systems would include a far larger set
+of words for you to use for changing how information
+is presented.
+
+This is an introduction so only descriptions that is
+used are here.
+
+And don't try re-inventing the wheel if you can avoid it.
+Check out TailwindCSS for an Open Source dictionary instead:
+Site: https://tailwindcss.com/
+ */
+
+.text-center {
+  text-align: center;
+}
+
+/*
+1ch => The width of "0"
+See: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/length#ch
+
+Somewhat standard to ensure text is easier readable.
+Ie. It don't take the full width of the screen.
+
+These are unsorted.
+*/
+.max-w-prose {
+  max-width: 65ch; 
+}
+
+.w-content {
+  width: fit-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.lighter {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+/*
+We recommend just search the web for inspiration.
+Shadows is a time honored method for adding depth
+to 2 dimensional pictures.
+
+Here's one for shadows:
+https://getcssscan.com/css-box-shadow-examples
+*/
+.shadow {
+  box-shadow:
+   
+  rgba(0, 0, 0, 0.09) 0px 2px 1px,
+
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.shadow-inset {
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 2px 4px 0px inset;
+}
+
+.ease-in-out {
+  transition: all 75ms ease-in-out;
+}
+
+.clickable {
+  box-shadow:
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.clickable:active {
+  
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+/*
+Applicable to textareas primarily.
+ */
+.autosize {
+  resize: none;
+  overflow: hidden;
+}
+
+.hover\:brighten:hover {
+  filter: brightness(1.1);
+}
+
+.hover\:scale-105:hover {
+  scale: 1.05;
+}
+
+.hover\:scale-110:hover {
+  scale: 1.10;
+}

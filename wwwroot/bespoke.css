@@ -1,0 +1,24 @@
+/* 
+===================
+= Bespoke Classes =
+===================
+*/
+/* 
+Try to keep single use clasess to a minimum.
+They make maintenance of code extremely hard.
+ */
+.app {
+  display: grid;
+  grid-template-rows: minmax(0, auto) 1fr minmax(0, auto);
+  min-height: 100vh;
+}
+
+.message {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
